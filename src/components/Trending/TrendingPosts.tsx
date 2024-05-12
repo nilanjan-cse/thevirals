@@ -1,8 +1,7 @@
 import { Backdrop, Box, CircularProgress, Typography } from '@mui/material'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import PublicPosts, { IPost } from './PublicPosts'
 import { requestData } from '../../helpers/httprequesthelper'
-import Posts from '../Posts/Posts';
 
 function TrendingPosts() {
   const [data, setData] = useState<IPost[]>([]);

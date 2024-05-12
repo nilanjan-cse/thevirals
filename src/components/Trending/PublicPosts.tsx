@@ -1,6 +1,5 @@
-import { Button, Card, CardActions, CardContent, CardMedia, IconButton, Stack, Typography } from '@mui/material'
-import React, { useEffect } from 'react'
-import Image from '../../logo.svg';
+import {IconButton, Stack, Typography } from '@mui/material'
+import { useEffect } from 'react'
 import Paper from '@mui/material/Paper';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShareIcon from '@mui/icons-material/Share';

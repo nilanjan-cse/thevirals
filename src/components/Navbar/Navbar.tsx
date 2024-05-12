@@ -1,6 +1,5 @@
 import { AppBar, Box, Button, CssBaseline, Toolbar } from '@mui/material'
 import QueueIcon from '@mui/icons-material/Queue';
-import { useState } from 'react';
 import { requestData } from '../../helpers/httprequesthelper';
 function Navbar() {
   const navItems = [
